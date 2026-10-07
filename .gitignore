@@ -1,0 +1,18 @@
+# ===== 生成.pyc 等中间产物 =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ===== 原始数据：年报 PDF 体积大，不入库，由 01b 脚本按需重新获取 =====
+data/raw_pdf/
+data/corpus/
+data/processed/
+
+# ===== 中间大文件 =====
+*.pkl
+*.model
+*.model.*
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db

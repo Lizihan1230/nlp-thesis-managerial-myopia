@@ -1,0 +1,13 @@
+# 环境：Python 3.10+（本仓库在 Python 3.11.1 上验证通过）
+
+pandas>=1.5
+numpy>=1.23
+scipy>=1.9
+scikit-learn>=1.2
+gensim>=4.3
+statsmodels>=0.13
+PyMuPDF>=1.23       # PDF 解析
+jieba>=0.42.1       # 中文分词
+requests>=2.28      # 数据采集
+matplotlib>=3.6     # 论文插图
+seaborn>=0.12
